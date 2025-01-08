@@ -93,12 +93,6 @@ Remember: A good RRL doesn't just summarize existing research—it analyzes, syn
             </div>
           </CardContent>
         </Card>
-        <Button variant="ghost" asChild className="mb-6">
-          <Link href="/blog">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Blog
-          </Link>
-        </Button>
       </div>
     </div>
   )
