@@ -1,5 +1,5 @@
 import './globals.css';
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
@@ -8,8 +8,11 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'RRL Example - Your Guide to Review of Related Literature',
-  description: 'Comprehensive resources and examples for writing Review of Related Literature (RRL)',
+  title: {
+    template:'%s | RRL Example - Comprehensive Guide to Review of Related Literature',
+    default:'RRL Example - Comprehensive Guide to Review of Related Literature'
+  },
+  description: 'Explore comprehensive guides and free example&resources for writing outstanding review of related literature (rrl) tailored for students, researchers, and scholars'
 };
 
 export default function RootLayout({

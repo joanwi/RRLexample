@@ -1,6 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { BookOpen, FileText, CheckCircle, AlertCircle } from "lucide-react"
+import { Metadata } from "next"
+
+export const metadata:Metadata={
+  title:'Guide',
+}
 
 export default function GuidePage() {
   return (
