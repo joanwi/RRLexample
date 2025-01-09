@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
+      <GoogleTagManager gtmId="GTM-T2MEW270RG" />
     </html>
   );
 }

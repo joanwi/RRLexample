@@ -11,7 +11,7 @@ export default function Home() {
       <section className="py-20 px-4 text-center bg-gradient-to-b from-background to-muted relative">
         <Image
           src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80"
-          alt="Library background"
+          alt="rrl example"
           fill
           className="object-cover opacity-10"
           priority
