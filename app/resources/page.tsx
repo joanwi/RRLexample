@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'Resources',
+  title:'Comprehensive resources of rrl',
 }
 
 export default function ResourcesPage() {

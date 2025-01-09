@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'FAQ',
+  title:'FAQ|rrl example',
 }
 
 export default function FAQPage() {

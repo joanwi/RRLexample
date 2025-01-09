@@ -1,18 +1,16 @@
-import './globals.css';
-import { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import "./globals.css";
+import { Metadata } from "next";
+import { Inter } from "next/font/google";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: {
-    template:'%s | RRL Example - Comprehensive Guide to Review of Related Literature',
-    default:'RRL Example - Comprehensive Guide to Review of Related Literature'
-  },
-  description: 'Explore comprehensive guides and free example&resources for writing outstanding review of related literature (rrl) tailored for students, researchers, and scholars'
+  title: "RRL Example - Comprehensive Guide to Review of Related Literature",
+  description:
+    "Explore comprehensive guides and free example&resources for writing outstanding review of related literature (rrl) tailored for students, researchers, and scholars",
 };
 
 export default function RootLayout({
@@ -27,7 +25,7 @@ export default function RootLayout({
         <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
-      <GoogleAnalytics  gaId="G-T2MEW270RG" />
+      <GoogleAnalytics gaId="G-T2MEW270RG" />
     </html>
   );
 }

@@ -4,7 +4,7 @@ import { BookOpen, FileText, CheckCircle, AlertCircle } from "lucide-react"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'Guide',
+  title:'Guide to rrl |rrl example',
 }
 
 export default function GuidePage() {

@@ -21,7 +21,7 @@ export default function Home() {
             Master Your Review of Related Literature
           </h1>
           <p className="mt-4 text-xl text-muted-foreground">
-            Comprehensive guides, examples, and resources to help you write an outstanding literature review
+            Comprehensive guides, rrl examples, and resources to help you write an outstanding literature review
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">

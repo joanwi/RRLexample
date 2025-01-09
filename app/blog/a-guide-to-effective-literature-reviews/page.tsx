@@ -2,6 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Facebook, Twitter, ArrowLeft, MessageSquare } from "lucide-react"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata:Metadata={
+    title:'How to Write a Literature Review in Research: RRL Example & Guide',
+    description:'Master the art of writing a literature review (RRL) with our comprehensive guide. Explore examples of RRL and related literature for papers and dissertations.'
+}
 
 export default function RRLGuidePage() {
   const post = {
