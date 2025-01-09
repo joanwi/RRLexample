@@ -11,32 +11,19 @@ export const metadata:Metadata={
 const blogPosts = [
   {
     id: 1,
-    title: "How to Write a Literature Review in Research: RRL Example & Guide",
-    description: "Master the art of writing a literature review (RRL) with our comprehensive guide. Explore examples of RRL and related literature for papers and dissertations.",
-    date: "2024-03-21",
-    slug: "how-to-write-literature-review-rrl"
+    title: "RRL Example: A Guide to Effective Literature Reviews",
+    description: "A Review of Related Literature (RRL) is an essential part of any research project. It provides you with a comprehensive overview of existing studies and helps you identify gaps in the current knowledge on your topic.",
+    date: "2025-01-09",
+    slug: "a-guide-to-effective-literature-reviews"
   },
-  {
-    id: 2,
-    title: "How to Structure Your Literature Review",
-    description: "Learn the essential components and organization strategies for a comprehensive literature review.",
-    date: "2024-03-20",
-    slug: "structure-literature-review"
-  },
-  {
-    id: 3,
-    title: "Common Mistakes in Literature Reviews",
-    description: "Avoid these frequent pitfalls when writing your review of related literature.",
-    date: "2024-03-18",
-    slug: "common-mistakes-literature-reviews"
-  },
-  {
-    id: 4,
-    title: "Research Methods for Literature Review",
-    description: "Effective research strategies and methodologies for conducting a thorough literature review.",
-    date: "2024-03-15",
-    slug: "research-methods-literature-review"
-  }
+  // {
+  //   id: 2,
+  //   title: "How to Structure Your Literature Review",
+  //   description: "Learn the essential components and organization strategies for a comprehensive literature review.",
+  //   date: "2024-03-20",
+  //   slug: "structure-literature-review"
+  // },
+  
 ]
 
 export default function BlogPage() {
