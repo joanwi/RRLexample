@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "RRL Example - Comprehensive Guide to Review of Related Literature",
   description:
-    "Explore comprehensive guides and free example&resources for writing outstanding review of related literature (rrl) tailored for students, researchers, and scholars",
+    "RRL Example offers comprehensive guides, examples, and resources for writing outstanding literature reviews. Perfect for students and researchers.",
 };
 
 export default function RootLayout({

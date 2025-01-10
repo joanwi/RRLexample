@@ -18,10 +18,10 @@ export default function Home() {
         />
         <div className="container mx-auto max-w-4xl relative">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-            Master Your Review of Related Literature
+            RRL Example: Your Ultimate Literature Review Resource
           </h1>
           <p className="mt-4 text-xl text-muted-foreground">
-            Comprehensive guides, rrl examples, and resources to help you write an outstanding literature review
+            At RRL Example, we provide comprehensive guides, examples, and resources to help you write an outstanding literature review. Perfect for undergraduate and graduate students working on research papers and theses, our platform is essential for academic researchers conducting comprehensive literature reviews. Scholars and academics publishing research papers will find our resources invaluable. Start writing now with RRL Example and take your research to the next level.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">
@@ -37,7 +37,10 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Everything You Need</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Features</h2>
+          <p className="mt-4 text-xl text-muted-foreground">
+          Our extensive collection of literature review resources includes step-by-step guides, example reviews, and tips for effective research. Whether you are just starting or looking to refine your review, RRL Example has everything you need.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link href="/guide" className="block h-full">
               <Card className="transition-transform hover:scale-105 h-full">
@@ -135,9 +138,9 @@ export default function Home() {
             </Card>
             <Card>
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-2">Are the templates free?</h3>
+                <h3 className="text-xl font-semibold mb-2">Are the rrl examples free?</h3>
                 <p className="text-muted-foreground">
-                  Yes, all templates and resources are free to download and use for your research.
+                  Yes, all rrl examples and resources are free for your research.
                 </p>
               </CardContent>
             </Card>
