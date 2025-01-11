@@ -16,13 +16,13 @@ const blogPosts = [
     date: "2025-01-09",
     slug: "a-guide-to-effective-literature-reviews"
   },
-  // {
-  //   id: 2,
-  //   title: "How to Structure Your Literature Review",
-  //   description: "Learn the essential components and organization strategies for a comprehensive literature review.",
-  //   date: "2024-03-20",
-  //   slug: "structure-literature-review"
-  // },
+  {
+    id: 2,
+    title: "RRL Meaning: Understanding Its Significance in Research and Academia",
+    description: "An RRL, or Review of Related Literature, is an essential part of research. It helps you understand the previous work done on your topic.",
+    date: "2025-01-11",
+    slug: "understanding-its-significance-in-research-and-academia"
+  },
   
 ]
 

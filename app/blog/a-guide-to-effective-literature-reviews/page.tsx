@@ -6,7 +6,7 @@ import { Metadata } from "next"
 
 export const metadata:Metadata={
     title:'How to Write a Literature Review in Research: RRL Example & Guide',
-    description:'Master the art of writing a literature review (RRL) with our comprehensive guide. Explore examples of RRL and related literature for papers and dissertations.'
+    description:'Master the art of writing a literature review (RRL) with our comprehensive guide. Explore examples of RRL and related literature for papers and dissertations.',
 }
 
 export default function RRLGuidePage() {
@@ -152,7 +152,7 @@ export default function RRLGuidePage() {
     What is the role of RRL in the research process?
     The RRL provides context for your research question. It shows what is already known and where gaps exist. This helps you to justify your study and demonstrate its significance within the field.
     How can you use Google Scholar to find sources for an RRL?
-    You can use Google Scholar by entering relevant keywords related to your topic. Then, filter results by publication date or relevance to find the most suitable studies. Use citations to track down original articles related to your topic of interest.`
+    You can use Google Scholar by entering relevant keywords related to your topic. Then, filter results by publication date or relevance to find the most suitable studies. Use citations to track down original articles related to your topic of interest.`,
   }
 
   return (
