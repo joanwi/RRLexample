@@ -11,10 +11,10 @@ export const metadata:Metadata={
 const examples = [
   {
     id: 1,
-    title: "The Effectiveness of Experiential Marketing on Consumer Engagement",
-    introduction: "Experiential marketing has emerged as a compelling strategy for brands seeking to create memorable connections with consumers. This marketing approach focuses on engaging consumers through interactive experiences that are emotionally resonant and immersive. As competition intensifies across industries, brands are increasingly investing in experiential marketing to differentiate themselves and increase consumer engagement (Holt, 2002). This review examines the literature on experiential marketing, its effectiveness in engaging consumers, and the value it offers to brands.",
-    field: "Marketing",
-    slug: "effectiveness-of-experiential-marketing-on-consumer-engagement"
+    title: "The Impact of Nurse Staffing Levels on Patient Outcomes",
+    introduction: "Nurse staffing levels have emerged as a critical topic within the nursing field, particularly due to their direct implications for patient safety, quality of care, and overall healthcare outcomes. Adequate staffing is essential for nurses to perform their duties effectively, maintain patient safety, and reduce the likelihood of adverse events. This literature review explores the relationship between nurse staffing levels and patient outcomes, including the implications for healthcare policy, patient safety, and nursing practice.",
+    field: "Nursing",
+    slug: "the-impact-of-nurse-staffing-levels-on-patient-outcomes"
   },
   {
     id: 2,
@@ -32,11 +32,12 @@ const examples = [
   },
   {
     id: 4,
-    title: "Environmental Science RRL",
-    introduction: "A review of sustainable urban development practices and their environmental impact.",
-    field: "Environmental Science",
-    slug: "environmental-science-rrl"
-  }
+    title: "The Effectiveness of Experiential Marketing on Consumer Engagement",
+    introduction: "Experiential marketing has emerged as a compelling strategy for brands seeking to create memorable connections with consumers. This marketing approach focuses on engaging consumers through interactive experiences that are emotionally resonant and immersive. As competition intensifies across industries, brands are increasingly investing in experiential marketing to differentiate themselves and increase consumer engagement (Holt, 2002). This review examines the literature on experiential marketing, its effectiveness in engaging consumers, and the value it offers to brands.",
+    field: "Marketing",
+    slug: "effectiveness-of-experiential-marketing-on-consumer-engagement"
+  },
+  
 ]
 
 export default function ExamplesPage() {
