@@ -4,7 +4,8 @@ import { BookOpen, FileText, CheckCircle, AlertCircle } from "lucide-react"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'Guide to rrl |rrl example',
+  title:'Comprehensive Guide: Master rrl Quickly | RRL Example',
+  description:'Discover our comprehensive guide to quickly master rrl. Get practical advice and step-by-step instructions to enhance your skills.',
 }
 
 export default function GuidePage() {

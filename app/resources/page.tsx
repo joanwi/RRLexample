@@ -5,7 +5,8 @@ import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'Comprehensive resources of rrl',
+  title:'Comprehensive resources for rrl writing | RRL Example',
+  description:'Access essential resources and tools for writing Review of Related Literature (RRL). Find databases, guides, and writing tools to streamline your research process.',
 }
 
 export default function ResourcesPage() {

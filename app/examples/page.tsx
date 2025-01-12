@@ -5,7 +5,8 @@ import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'Examples|Comprehensive rrl example',
+  title:'RRL Example | Comprehensive rrl example.',
+  description:'Explore diverse Review of Related Literature (RRL) examples from multiple academic fields. Find well-structured samples to guide your research writing.',
 }
 
 const examples = [

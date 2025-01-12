@@ -2,6 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata:Metadata={
+title:'Experiential Marketing and Consumer Engagement: A rrl on Marketing | RRL Example',
+description:"An analysis examining how experiential marketing creates consumer connections and drives engagement through immersive brand experiences.",
+}
 
 export default function ExamplePage() {
  const example = {

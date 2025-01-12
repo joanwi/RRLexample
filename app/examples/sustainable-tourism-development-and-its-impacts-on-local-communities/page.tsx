@@ -2,6 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata:Metadata={
+title:'Sustainable Tourism and Community Impact: A rrl on Tourism Management | RRL Example',
+description:"A comprehensive review exploring sustainable tourism's impact on local communities through economic, cultural and environmental perspectives.",
+}
 
 export default function ExamplePage() {
  const example = {

@@ -2,6 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata:Metadata={
+title:'Nurse Staffing and Patient Outcomes: A rrl on Nursing | RRL Example',
+description:'Explore the critical relationship between nurse staffing levels and healthcare outcomes. This review examines evidence-based research on patient safety, nursing practice, and policy implications.',
+}
 
 export default function ExamplePage() {
  const example = {

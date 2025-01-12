@@ -2,6 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata:Metadata={
+title:'Leadership and Organizational Change: A rrl on Business Administration | RRL Example',
+description:'Discover how effective leadership drives successful organizational change. This comprehensive review examines leadership theories, change management strategies, and emerging trends in business transformation.',
+}
 
 export default function ExamplePage() {
  const example = {

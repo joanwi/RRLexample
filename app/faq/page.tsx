@@ -2,7 +2,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'FAQ|rrl example',
+  title:'FAQ | RRL Example',
+  description:'Find answers to common questions about Review of Related Literature (RRL). Get quick solutions to your RRL writing and research concerns.',
 }
 
 export default function FAQPage() {

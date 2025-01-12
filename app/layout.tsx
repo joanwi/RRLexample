@@ -8,7 +8,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "RRL Example - Comprehensive Guide to Review of Related Literature",
+  title: "RRL Example | Comprehensive Guide to Review of Related Literature",
   description:
     "RRL Example offers comprehensive guides, examples, and resources for writing outstanding literature reviews. Perfect for students and researchers.",
 };
