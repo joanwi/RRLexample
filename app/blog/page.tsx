@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata:Metadata={
-  title:'RRL writing blog: Tips, Guides & Best Practices | RRL Example',
+  title:'RRL writing blogs: Tips, Guides & Best Practices | RRL Example',
   description:'Explore expert insights on Review of Related Literature writing. Get practical tips, step-by-step guides, and latest research writing strategies.',
 }
 
