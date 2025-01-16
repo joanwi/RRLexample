@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: 'Leadership and Organizational Change: A rrl on Business Administration | RRL Example',
+  title: 'RRL Example | Leadership and Organizational Change: A rrl on Business Administration',
   description: 'Discover how effective leadership drives successful organizational change. This comprehensive review examines leadership theories, change management strategies, and emerging trends in business transformation.',
 }
 
@@ -13,7 +13,7 @@ export default function ExamplePage() {
   const example = {
     title: "The Role of Leadership in Fostering Organizational Change",
     field: "Business Administration",
-    content: `
+    content: (<>
       <h3>Introduction</h3>
       <p>Leadership plays a crucial role in guiding organizations through change processes, which are increasingly essential in today's fast-paced and competitive business environment. The effectiveness of organizational change relies significantly on the capabilities and approaches of leaders. As global business dynamics evolve due to technological advancements, economic fluctuations, and societal shifts, understanding the interplay between leadership styles and successful change implementation has garnered scholarly attention. This review explores the literature on leadership's influence on organizational change, highlighting key theories, practical applications, and emerging trends.</p>
       
@@ -47,7 +47,7 @@ export default function ExamplePage() {
       <p>Kotter, J. P., & Schlesinger, L. A. (2008). Choosing Strategies for Change. Harvard Business Review, 86(7/8), 130-139.</p>
       <p>Pine, B. J., & Gilmore, J. H. (1998). The Experience Economy: Work Is Theater & Every Business a Stage. Harvard Business Review Press.</p>
       <p>Wang, P., Miao, C., Sun, Z., & Yang, H. (2020). Digital Leadership and Innovation in Projects: An Empirical Study. Journal of Business Research, 115, 216-225.</p>
-    `
+      </>)
   }
 
   return (
@@ -67,8 +67,8 @@ export default function ExamplePage() {
               Field: {example.field}
             </div>
           </CardHeader>
-          <CardContent>
-            <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: example.content }} />
+          <CardContent className="prose max-w-none">
+            {example.content}
           </CardContent>
         </Card>
         <Button variant="ghost" asChild className="mb-6">

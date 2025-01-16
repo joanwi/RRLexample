@@ -19,10 +19,10 @@ const examples = [
   },
   {
     id: 2,
-    title: "The Role of Leadership in Fostering Organizational Change",
-    introduction: "Leadership plays a crucial role in guiding organizations through change processes, which are increasingly essential in today's fast-paced and competitive business environment. The effectiveness of organizational change relies significantly on the capabilities and approaches of leaders. As global business dynamics evolve due to technological advancements, economic fluctuations, and societal shifts, understanding the interplay between leadership styles and successful change implementation has garnered scholarly attention. This review explores the literature on leadership's influence on organizational change, highlighting key theories, practical applications, and emerging trends.",
-    field: "Business Administration",
-    slug: "the-role-of-leadership-in-fostering-organizational-change"
+    title: "The Role of Telemedicine in Chronic Disease Management",
+    introduction: "Telemedicine has become a crucial component of modern healthcare, providing remote clinical services through telecommunications technology. Its significance has intensified due to the COVID-19 pandemic, which necessitated alternative methods for delivering medical care while minimizing exposure risks. This literature review explores the current state of telemedicine, focusing on its effectiveness in managing chronic diseases, patient satisfaction, and the associated challenges and opportunities.",
+    field: "Medicine",
+    slug: "the-role-of-telemedicine-in-chronic-disease-management"
   },
   {
     id: 3,
@@ -38,6 +38,14 @@ const examples = [
     field: "Marketing",
     slug: "effectiveness-of-experiential-marketing-on-consumer-engagement"
   },
+  {
+    id: 5,
+    title: "The Role of Leadership in Fostering Organizational Change",
+    introduction: "Leadership plays a crucial role in guiding organizations through change processes, which are increasingly essential in today's fast-paced and competitive business environment. The effectiveness of organizational change relies significantly on the capabilities and approaches of leaders. As global business dynamics evolve due to technological advancements, economic fluctuations, and societal shifts, understanding the interplay between leadership styles and successful change implementation has garnered scholarly attention. This review explores the literature on leadership's influence on organizational change, highlighting key theories, practical applications, and emerging trends.",
+    field: "Business Administration",
+    slug: "the-role-of-leadership-in-fostering-organizational-change"
+  },
+  
   
 ]
 
