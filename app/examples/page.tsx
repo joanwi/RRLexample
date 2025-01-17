@@ -73,7 +73,7 @@ export default function ExamplesPage() {
                 </div>
                 <Button asChild>
                   <Link href={`/examples/${example.slug}`}>
-                    View Example <ArrowRight className="ml-2 h-4 w-4" />
+                    View Full RRL <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
