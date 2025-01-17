@@ -177,13 +177,13 @@ export default function RRLGuidePage() {
 <p>Finding the right materials to support your Review of Related Literature (RRL) is essential. A variety of readings, helpful tools, and avenues for assistance can greatly enhance your research process.</p>
 <h3>Recommended Readings and Resources on RRL</h3>
 <p>When delving into RRL, consider starting with academic journals and scholarly sources.</p>
-<p>Websites like <a href="https://scholar.google.com">Google Scholar</a> provide access to a wide range of articles. You can easily search for specific topics and filter results by recent publications.</p>
-<p>Another valuable resource is <a href="https://pubmed.ncbi.nlm.nih.gov">PubMed</a>, which is especially useful for medical and life sciences research. It offers access to millions of citations and articles from various journals.</p>
+<p>Websites like <a href="https://scholar.google.com" target="_blank">Google Scholar</a> provide access to a wide range of articles. You can easily search for specific topics and filter results by recent publications.</p>
+<p>Another valuable resource is <a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank">PubMed</a>, which is especially useful for medical and life sciences research. It offers access to millions of citations and articles from various journals.</p>
 <p>Books and guides on literature reviews can also be helpful. Look for texts that focus on research methodology and RRL specifically. This will provide you with a strong foundation and deeper insight into effective practices.</p>
 <h3>Tools and Software for Conducting RRL</h3>
-<p>Numerous tools can streamline your RRL process. Reference management software like <strong>Zotero</strong> or <strong>Mendeley</strong> can help you organize your sources.</p>
+<p>Numerous tools can streamline your RRL process. Reference management software like <a href="https://www.zotero.org/" target="_blank">Zotero</a> or <a href="https://www.mendeley.com/" target="_blank">Mendeley</a> can help you organize your sources.</p>
 <p>These programs allow you to save articles, cite them properly, and create bibliographies with ease.</p>
-<p>For your literature search, utilize databases such as <a href="https://www.jstor.org">JSTOR</a> and institutional access to various academic journals. These platforms contain peer-reviewed articles that are crucial for comprehensive reviews.</p>
+<p>For your literature search, utilize databases such as <a href="https://www.jstor.org" target="_blank">JSTOR</a> and institutional access to various academic journals. These platforms contain peer-reviewed articles that are crucial for comprehensive reviews.</p>
 <p>Additionally, tools like <strong>EndNote</strong> can assist you in managing references and formatting citations in your preferred style. Using these tools saves time and enhances your research efficiency.</p>
 <h3>Contact Information for Further Assistance</h3>
 <p>When you need more guidance, reaching out to experts can be beneficial.</p>
