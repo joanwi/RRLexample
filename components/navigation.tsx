@@ -11,6 +11,12 @@ export function Navigation() {
           <span className="font-bold text-xl">RRL Example</span>
         </Link>
         <nav className="flex space-x-8">
+        <Link 
+            href="/" 
+            className="text-foreground hover:text-primary transition-colors"
+          >
+            Home
+          </Link>
           <Link 
             href="/guide" 
             className="text-foreground hover:text-primary transition-colors"

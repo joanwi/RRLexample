@@ -235,7 +235,7 @@ export default function RRLGuidePage() {
               <div className="text-sm text-muted-foreground">
                 <span>{new Date(post.date).toLocaleDateString()}</span>
                 <span className="mx-2">•</span>
-                <span>Administrator</span>
+                <span>Alex Martin</span>
               </div>
               <div className="flex gap-2">
                 <Button variant="ghost" size="icon" asChild>

@@ -49,7 +49,7 @@ export default function BlogPage() {
                 <div className="text-sm text-muted-foreground">
                   <span>{new Date(post.date).toLocaleDateString()}</span>
                   <span className="mx-2">•</span>
-                  <span>Administrator</span>
+                  <span>Alex Martin</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="flex gap-2">
