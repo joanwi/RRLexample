@@ -13,35 +13,35 @@ const examples = [
   {
     id: 1,
     title: "The Impact of Nurse Staffing Levels on Patient Outcomes",
-    introduction: "Nurse staffing levels have emerged as a critical topic within the nursing field, particularly due to their direct implications for patient safety, quality of care, and overall healthcare outcomes. Adequate staffing is essential for nurses to perform their duties effectively, maintain patient safety, and reduce the likelihood of adverse events. This literature review explores the relationship between nurse staffing levels and patient outcomes, including the implications for healthcare policy, patient safety, and nursing practice.",
+    introduction: "Nurse staffing levels have emerged as a critical topic within the nursing field, particularly due to their direct implications for patient safety, quality of care, and overall healthcare outcomes. Adequate staffing is essential for nurses to perform their duties effectively, maintain...",
     field: "Nursing",
     slug: "the-impact-of-nurse-staffing-levels-on-patient-outcomes"
   },
   {
     id: 2,
     title: "The Role of Telemedicine in Chronic Disease Management",
-    introduction: "Telemedicine has become a crucial component of modern healthcare, providing remote clinical services through telecommunications technology. Its significance has intensified due to the COVID-19 pandemic, which necessitated alternative methods for delivering medical care while minimizing exposure risks. This literature review explores the current state of telemedicine, focusing on its effectiveness in managing chronic diseases, patient satisfaction, and the associated challenges and opportunities.",
+    introduction: "Telemedicine has become a crucial component of modern healthcare, providing remote clinical services through telecommunications technology. Its significance has intensified due to the COVID-19 pandemic, which necessitated alternative methods for delivering medical care...",
     field: "Medicine",
     slug: "the-role-of-telemedicine-in-chronic-disease-management"
   },
   {
     id: 3,
     title: "Sustainable Tourism Development and Its Impacts on Local Communities",
-    introduction: "Sustainable tourism has gained significant attention in recent years as a response to the negative environmental, economic, and social impacts of traditional tourism practices. As global travel continues to increase, the need for sustainable approaches that balance tourism growth with ecological preservation and community well-being has become imperative. This review of the literature focuses on the principles of sustainable tourism development, its impacts on local communities, and the frameworks that guide its implementation.",
+    introduction: "Sustainable tourism has gained significant attention in recent years as a response to the negative environmental, economic, and social impacts of traditional tourism practices. As global travel continues to increase, the need for sustainable approaches that balance...",
     field: "Tourism Management",
     slug: "sustainable-tourism-development-and-its-impacts-on-local-communities"
   },
   {
     id: 4,
     title: "The Effectiveness of Experiential Marketing on Consumer Engagement",
-    introduction: "Experiential marketing has emerged as a compelling strategy for brands seeking to create memorable connections with consumers. This marketing approach focuses on engaging consumers through interactive experiences that are emotionally resonant and immersive. As competition intensifies across industries, brands are increasingly investing in experiential marketing to differentiate themselves and increase consumer engagement (Holt, 2002). This review examines the literature on experiential marketing, its effectiveness in engaging consumers, and the value it offers to brands.",
+    introduction: "Experiential marketing has emerged as a compelling strategy for brands seeking to create memorable connections with consumers. This marketing approach focuses on engaging consumers through interactive experiences that are emotionally resonant and immersive...",
     field: "Marketing",
     slug: "effectiveness-of-experiential-marketing-on-consumer-engagement"
   },
   {
     id: 5,
     title: "The Role of Leadership in Fostering Organizational Change",
-    introduction: "Leadership plays a crucial role in guiding organizations through change processes, which are increasingly essential in today's fast-paced and competitive business environment. The effectiveness of organizational change relies significantly on the capabilities and approaches of leaders. As global business dynamics evolve due to technological advancements, economic fluctuations, and societal shifts, understanding the interplay between leadership styles and successful change implementation has garnered scholarly attention. This review explores the literature on leadership's influence on organizational change, highlighting key theories, practical applications, and emerging trends.",
+    introduction: "Leadership plays a crucial role in guiding organizations through change processes, which are increasingly essential in today's fast-paced and competitive business environment. The effectiveness of organizational change relies significantly on the capabilities and approaches...",
     field: "Business Administration",
     slug: "the-role-of-leadership-in-fostering-organizational-change"
   },
