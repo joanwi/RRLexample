@@ -6,9 +6,9 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "How to Write a Literature Review in Research: RRL Example & Guide",
+  title: "How to Write a Literature Review: A Guide to Conducting Literature Reviews",
   description:
-    "Master the art of writing a literature review (RRL) with our comprehensive guide. Explore examples of RRL and related literature for papers and dissertations.",
+    "Discover how to write a literature review with our comprehensive guide. Learn to conduct a literature review effectively, analyze sources, and find examples.",
 };
 
 export default function RRLGuidePage() {
