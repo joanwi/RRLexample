@@ -15,10 +15,10 @@ interface ExamplesListProps {
   examples: Example[];
 }
 
-export default function ExamplesList({examples}:ExamplesListProps) {
+export default function ExamplesList({ examples }: ExamplesListProps) {
   return (
     <div className="max-w-3xl mx-auto space-y-6">
-      {examples.map((example) => (
+      {examples.sort((a, b) => a.id - b.id).map((example) => (
         <Card key={example.id}>
           <CardHeader>
             <h2 className="text-2xl font-bold">{example.title}</h2>

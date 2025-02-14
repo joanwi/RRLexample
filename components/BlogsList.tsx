@@ -24,7 +24,7 @@ interface BlogsListProps {
 export default function BlogsList({ blogs }: BlogsListProps) {
   return (
     <div className="max-w-3xl mx-auto space-y-6">
-      {blogs.map((post) => (
+      {blogs.sort((a, b) => b.id - a.id).map((post) => (
         <Card key={post.id}>
           <CardHeader>
             <h2 className="text-2xl font-bold">{post.title}</h2>

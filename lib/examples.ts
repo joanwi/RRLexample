@@ -14,7 +14,7 @@ export const examples = [
       slug: "the-role-of-telemedicine-in-chronic-disease-management"
     },
     {
-      id: 3,
+      id: 7,
       title: "Sustainable Tourism Development and Its Impacts on Local Communities",
       introduction: "Sustainable tourism has gained significant attention in recent years as a response to the negative environmental, economic, and social impacts of traditional tourism practices. As global travel continues to increase, the need for sustainable approaches that balance...",
       field: "Tourism Management",
@@ -34,6 +34,21 @@ export const examples = [
       field: "Business Administration",
       slug: "the-role-of-leadership-in-fostering-organizational-change"
     },
+    {
+      id: 6,
+      title: "The Role of Social-Emotional Learning (SEL) in Student Success",
+      introduction: "Social-emotional learning (SEL) has gained significant attention in recent years as a critical component of education. SEL focuses on developing students' emotional intelligence, self-awareness, relationship skills",
+      field: "Education",
+      slug: "social-emotional-learning-in-student-success"
+    },
+    {
+      id: 3,
+      title: "The Effectiveness of Gamification in Education",
+      introduction: "Gamification, the application of game design elements in non-game contexts, has emerged as a popular strategy to enhance student engagement and motivation in education. ",
+      field: "Education",
+      slug: "the-effectiveness-of-gamification-in-education"
+    },
+
     
     
   ]
