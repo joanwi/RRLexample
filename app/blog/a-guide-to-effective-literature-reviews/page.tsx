@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Master the art of writing a literature review (RRL) with our comprehensive guide. Explore examples of RRL and related literature for papers and dissertations.",
 };
 
-export default function RRLGuidePage() {
+export default function Page() {
   const post = {
     title: "RRL Example: A Guide to Effective Literature Reviews",
     date: "2025-01-09",

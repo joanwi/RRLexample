@@ -10,7 +10,7 @@ export const metadata:Metadata={
     description:'Discover the essentials of RRL in research. This guide helps you master writing a review of related literature, complete with examples and practical tips.'
 }
 
-export default function RRLGuidePage() {
+export default function Page() {
   const post = {
     title: "RRL Meaning: Understanding Its Significance in Research and Academia",
     date: "2025-01-11",

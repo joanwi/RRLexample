@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Discover how to write a literature review with our comprehensive guide. Learn to conduct a literature review effectively, analyze sources, and find examples.",
 };
 
-export default function RRLGuidePage() {
+export default function Page() {
   const post = {
     title: "How to Write a Literature Review: Quick Tips and Tricks",
     date: "2025-01-22",
