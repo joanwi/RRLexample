@@ -1,9 +1,9 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Facebook, Twitter, ArrowLeft, MessageSquare } from "lucide-react"
+import { ArrowLeft} from "lucide-react"
 import Link from "next/link"
 import { Metadata } from "next"
 import Image from "next/image"
+import BlogCard from "@/components/BlogCard"
 
 export const metadata:Metadata={
     title:'Understanding RRL: A Guide to Review of Related Literature in Research',
@@ -228,38 +228,8 @@ export default function Page() {
           </Link>
         </Button>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>{post.title}</CardTitle>
-            <div className="flex items-center justify-between mt-4">
-              <div className="text-sm text-muted-foreground">
-                <span>{new Date(post.date).toLocaleDateString()}</span>
-                <span className="mx-2">•</span>
-                <span>Alex Martin</span>
-              </div>
-              <div className="flex gap-2">
-                <Button variant="ghost" size="icon" asChild>
-                  <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`} target="_blank" rel="noopener noreferrer">
-                    <Twitter className="h-4 w-4" />
-                  </a>
-                </Button>
-                <Button variant="ghost" size="icon" asChild>
-                  <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`} target="_blank" rel="noopener noreferrer">
-                    <Facebook className="h-4 w-4" />
-                  </a>
-                </Button>
-                <Button variant="ghost" size="icon" asChild>
-                  <a href={`https://reddit.com/submit?url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}&title=${encodeURIComponent(post.title)}`} target="_blank" rel="noopener noreferrer">
-                    <MessageSquare className="h-4 w-4" />
-                  </a>
-                </Button>
-              </div>
-            </div>
-          </CardHeader>
-          <CardContent className="prose max-w-none">
-            {post.content}
-          </CardContent>
-        </Card>
+        <BlogCard post={post} />
+
         <Button variant="ghost" asChild className="mb-6">
           <Link href="/blog">
             <ArrowLeft className="mr-2 h-4 w-4" />

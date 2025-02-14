@@ -1,8 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Metadata } from "next"
+import ExampleCard from "@/components/ExampleCard"
 
 export const metadata:Metadata={
 title:'RRL Example | Nurse Staffing and Patient Outcomes: A rrl on Nursing',
@@ -65,17 +65,8 @@ export default function ExamplePage() {
           </Link>
         </Button>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>{example.title}</CardTitle>
-            <div className="text-sm text-muted-foreground mt-2">
-              Field: {example.field}
-            </div>
-          </CardHeader>
-          <CardContent className="prose max-w-none">
-            {example.content}
-          </CardContent>
-        </Card>
+        <ExampleCard example={example} />
+
         <Button variant="ghost" asChild className="mb-6">
           <Link href="/examples">
             <ArrowLeft className="mr-2 h-4 w-4" />
