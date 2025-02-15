@@ -56,7 +56,7 @@ export function Navigation() {
           <BookOpen className="h-6 w-6" />
           <span className="font-bold text-xl">RRL Example</span>
         </Link>
-        <nav className="hidden md:flex space-x-8 ml-auto">
+        <nav className="hidden md:flex space-x-8 ml-6">
           <NavLinks />
         </nav>
         <div className="md:hidden ml-auto relative">

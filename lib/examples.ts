@@ -48,6 +48,20 @@ export const examples = [
       field: "Education",
       slug: "the-effectiveness-of-gamification-in-education"
     },
+    {
+      id: 8,
+      title: "The Role of Mindfulness in Reducing Anxiety",
+      introduction: "Mindfulness, defined as the practice of maintaining a non-judgmental awareness of the present moment, has gained significant attention in psychology as a potential intervention for anxiety disorders.",
+      field: "Psychology",
+      slug: "the-role-of-mindfulness-in-reducing-anxiety"
+    },
+    {
+      id: 9,
+      title: "The Impact of Social Media on Adolescent Mental Health",
+      introduction: "The pervasive use of social media among adolescents has raised concerns about its impact on mental health. Recent studies suggest a complex relationship between social media use and psychological well-being",
+      field: "Psychology",
+      slug: "the-impact-of-social-media-on-adolescent-mental-health"
+    },
 
     
     
