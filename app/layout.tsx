@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="google-adsense-account" content="ca-pub-2930178765890637" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2930178765890637"
+          crossOrigin="anonymous"></script>
+      </Head>
       <body className={inter.className}>
         <Navigation />
         <main className="min-h-screen">{children}</main>
